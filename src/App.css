@@ -1,0 +1,118 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin-top: 5px;
+  box-shadow: 5px 5px 5px rgb(92, 90, 90);
+}
+
+.header {
+  display: flex;
+  height: 75px;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+  margin: auto;
+  /* margin-top: 45px; */
+  background-image: linear-gradient(rgb(210, 66, 210), rgb(174, 7, 174));
+  color: white;
+}
+
+.header-image {
+  height: 80%;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.header-text {
+  font-size: 1.75rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.input-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* padding-right:10px ; */
+}
+
+.input-box {
+  padding: 10px;
+  width: 250px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.input-box:focus {
+  border: 2px solid rgb(210, 66, 210);
+}
+
+.button {
+  width: 560px;
+  padding: 10px;
+  background-color: rgb(210, 66, 210);
+  color: white;
+  font-size: medium;
+  border-radius: 0.2cm;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(194, 49, 194);
+}
+
+.meme-img {
+  /* position: relative; */
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+
+.meme-upper,
+.meme-lower {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial";
+}
+
+.meme-upper {
+  top: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  font-size: x-large;
+  word-break: break-all;
+  width: 300px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.meme-lower {
+  bottom: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  font-size: x-large;
+  word-break: break-all;
+  width: 300px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.meme {
+  position: relative;
+}

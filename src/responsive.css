@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1400px) {
+  .button {
+    width: 120%;
+  }
+
+  .input-box {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .button {
+    width: 120%;
+  }
+
+  .input-box {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .box {
+    width: 100%;
+    margin: auto;
+  }
+
+  .button {
+    width: 95%;
+  }
+
+  .input-box {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 110%;
+    margin: auto;
+  }
+
+  .button {
+    width: 150%;
+  }
+
+  .input-box {
+    width: 165px;
+  }
+
+  .meme {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .meme-img {
+    width: 200%;
+  }
+
+  .meme-upper,
+  .meme-lower {
+    left: -40px;
+  }
+}
